@@ -1,6 +1,5 @@
 import { Text, View } from "react-native";
 import styles from '../style/style';
-import MaterialCommunityIcons from '@expo/vector-icons/MaterialCommunityIcons';
 import { useFonts } from 'expo-font';
 
 

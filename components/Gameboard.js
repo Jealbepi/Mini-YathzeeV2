@@ -247,10 +247,9 @@ export default Gameboard = ({ navigation, route }) => {
             <Header />
             <View>
                 <View>
-
-                        <Container fluid>
-                            <Row style={styles.dices}>{dicesRow}</Row>
-                        </Container>
+                    <Container fluid>
+                        <Row style={styles.dices}>{dicesRow}</Row>
+                    </Container>
                 </View>
                 <Text style={styles.gameboardText}>Throws left: {nbrOfThrowsLeft}</Text>
                 <Text style={styles.gameboardText}>{status}</Text>
